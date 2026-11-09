@@ -1,0 +1,193 @@
+{
+  "batchId": null,
+  "cutoff": null,
+  "industries": [
+    {
+      "id": "holdings",
+      "name": "金融控股",
+      "children": []
+    },
+    {
+      "id": "bank",
+      "name": "銀行",
+      "children": [
+        {
+          "id": "domestic-bank",
+          "name": "本國銀行"
+        },
+        {
+          "id": "foreign-bank",
+          "name": "外國及陸銀在臺分行"
+        },
+        {
+          "id": "industrial-bank",
+          "name": "工業銀行"
+        }
+      ]
+    },
+    {
+      "id": "cooperative",
+      "name": "合作與農業金融",
+      "children": [
+        {
+          "id": "credit-coop",
+          "name": "信用合作社"
+        },
+        {
+          "id": "agricultural-credit",
+          "name": "農漁會信用部"
+        },
+        {
+          "id": "agricultural-bank",
+          "name": "農業金庫"
+        }
+      ]
+    },
+    {
+      "id": "insurance",
+      "name": "保險",
+      "children": [
+        {
+          "id": "life",
+          "name": "壽險"
+        },
+        {
+          "id": "property",
+          "name": "產險"
+        },
+        {
+          "id": "insurance-broker",
+          "name": "保險經紀與代理"
+        },
+        {
+          "id": "reinsurance",
+          "name": "再保險"
+        }
+      ]
+    },
+    {
+      "id": "securities",
+      "name": "證券",
+      "children": [
+        {
+          "id": "broker",
+          "name": "證券商"
+        },
+        {
+          "id": "securities-finance",
+          "name": "證券金融"
+        }
+      ]
+    },
+    {
+      "id": "futures",
+      "name": "期貨",
+      "children": [
+        {
+          "id": "futures-broker",
+          "name": "期貨商"
+        },
+        {
+          "id": "futures-service",
+          "name": "期貨顧問與經理"
+        }
+      ]
+    },
+    {
+      "id": "funds",
+      "name": "投信投顧",
+      "children": [
+        {
+          "id": "investment-trust",
+          "name": "投信"
+        },
+        {
+          "id": "investment-consulting",
+          "name": "投顧"
+        }
+      ]
+    },
+    {
+      "id": "payments",
+      "name": "支付與匯兌機構",
+      "children": [
+        {
+          "id": "e-payment",
+          "name": "電子支付機構"
+        },
+        {
+          "id": "remittance",
+          "name": "外籍移工小額匯兌機構"
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "name": "金融市場基礎設施",
+      "children": [
+        {
+          "id": "exchanges",
+          "name": "交易市場"
+        },
+        {
+          "id": "settlement",
+          "name": "集保、清算與結算"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "其他金融機構與服務",
+      "children": [
+        {
+          "id": "postal",
+          "name": "郵政儲匯"
+        },
+        {
+          "id": "virtual-assets",
+          "name": "虛擬資產服務業"
+        },
+        {
+          "id": "credit-info",
+          "name": "信用資訊與評等"
+        }
+      ]
+    },
+    {
+      "id": "cross",
+      "name": "跨產業",
+      "children": []
+    }
+  ],
+  "news": [],
+  "knowledge": [
+    {
+      "id": "deposit-insurance",
+      "category": "bank",
+      "depth": "quick",
+      "title": "存款保險是什麼？",
+      "revisedOn": "2026-11-09",
+      "body": "存款保險是在要保金融機構發生事故時，依規定保障合格存款的制度。一般情形下，最高保額按每位存款人在同一家要保機構計算。同一家機構即使有數個帳戶，也要合併計算符合保障的本金及利息。想確認哪些款項受保障，可查中央存保公司的說明及保額試算。",
+      "sources": [
+        {
+          "name": "中央存保公司｜保額試算與說明",
+          "url": "https://www.cdic.gov.tw/main_estimate/index.aspx"
+        }
+      ]
+    },
+    {
+      "id": "etf",
+      "category": "investment-trust",
+      "depth": "quick",
+      "title": "ETF 是什麼？",
+      "revisedOn": "2026-11-09",
+      "body": "ETF 是可在交易市場買賣的基金。投資人可透過證券帳戶下單，交易方式類似買賣股票。被動式 ETF 以貼近標的指數表現為目標，主動式 ETF 則由經理人依公開的投資策略配置資產。ETF 的價格會隨市場變動。要了解一檔 ETF，可先看它的投資目標、所持資產及費用。",
+      "sources": [
+        {
+          "name": "臺灣證券交易所｜ETF 總覽",
+          "url": "https://www.twse.com.tw/zh/products/securities/etf/overview/introduction.html"
+        }
+      ]
+    }
+  ]
+}
