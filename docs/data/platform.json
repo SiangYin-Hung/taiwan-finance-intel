@@ -1,6 +1,6 @@
 {
-  "batchId": null,
-  "cutoff": null,
+  "batchId": "20261109-225859-tw",
+  "cutoff": "2026-11-09T22:58:59+08:00",
   "industries": [
     {
       "id": "holdings",
@@ -159,7 +159,358 @@
       "children": []
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "id": "tw-market-rebound",
+      "eventId": "tw-market-rebound",
+      "stage": "market-reaction",
+      "publishedAt": "2026-11-09T14:57:00+08:00",
+      "title": "台股收漲 1,960 點，為歷來第二大收盤漲點",
+      "summary": "台股加權指數在金管會穩市措施上路首日收在 41,661.70 點，上漲 1,960.06 點。這是台股歷來第二大的單日收盤漲點。",
+      "category": "exchanges",
+      "importance": "general",
+      "sources": [
+        {
+          "name": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202611090124.aspx"
+        },
+        {
+          "name": "公視新聞",
+          "url": "https://news.pts.org.tw/article/834992"
+        }
+      ],
+      "relatedCategories": [
+        "securities"
+      ],
+      "previousIds": [
+        "fsc-market-stability",
+        "fund-market-authorization"
+      ]
+    },
+    {
+      "id": "taifex-margin-nov",
+      "eventId": "taifex-margin-nov",
+      "stage": "announced",
+      "publishedAt": "2026-11-09",
+      "title": "期交所調高三項股票期貨保證金適用比例",
+      "summary": "期交所公告自 11 月 10 日調高致茂期貨、小型致茂期貨及台勝科期貨的保證金適用比例，調整後為各契約現行所屬級距適用比例的 1.5 倍。",
+      "category": "futures",
+      "importance": "general",
+      "sources": [
+        {
+          "name": "臺灣期貨交易所",
+          "url": "https://www.taifex.com.tw/file/taifex/CHINESE/11/attach/%E6%96%B0%E8%81%9E%E7%A8%BF_%E8%99%95%E7%BD%AE%E8%82%A1%E7%A5%A8%2844%29.pdf"
+        }
+      ]
+    },
+    {
+      "id": "holdings-overseas-q3",
+      "eventId": "holdings-overseas-q3",
+      "stage": "reported",
+      "publishedAt": "2026-11-08T14:53:00+08:00",
+      "title": "第三季金控海外曝險逾 33 兆元，投資淨額占比最高",
+      "summary": "中央社引述金管會統計，第三季金控海外曝險達新臺幣 33 兆 373 億元，較前季增加 4.95%。投資淨額約占 71.7%，是最大來源，其次為放款及同業拆存。",
+      "category": "holdings",
+      "importance": "general",
+      "sources": [
+        {
+          "name": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202611080101.aspx"
+        }
+      ]
+    },
+    {
+      "id": "fund-market-authorization",
+      "eventId": "fund-market-authorization",
+      "stage": "authorized",
+      "publishedAt": "2026-11-06",
+      "title": "國安基金授權視情況執行市場安定任務",
+      "summary": "財政部公布，國安基金管理委員會評估近期臺股急跌、外資持續賣超及市場信心轉弱，決議授權執行秘書視情況動用資金，執行市場安定任務。",
+      "category": "exchanges",
+      "importance": "important",
+      "sources": [
+        {
+          "name": "財政部",
+          "url": "https://www.mof.gov.tw/singlehtml/383?cntId=9f3f6bab54e44038b427386b8acc63fa"
+        }
+      ],
+      "relatedCategories": [
+        "securities"
+      ],
+      "knowledgeIds": [
+        "stabilization-fund"
+      ]
+    },
+    {
+      "id": "fsc-market-stability",
+      "eventId": "fsc-market-stability",
+      "stage": "announced",
+      "publishedAt": "2026-11-06",
+      "title": "金管會自 11 月 9 日收緊借券賣出與融券規定",
+      "summary": "金管會宣布，11 月 9 日起盤中借券賣出委託上限從個別證券前 30 個營業日日均成交量的 30% 降至 3%，上市櫃有價證券最低融券保證金成數由 90% 升至 130%。",
+      "category": "securities",
+      "importance": "important",
+      "sources": [
+        {
+          "name": "金管會",
+          "url": "https://www.fsc.gov.tw/ch/home.jsp?dataserno=202611060002&dtable=News&id=96&mcustomize=news_view.jsp&parentpath=0%2C2&toolsflag=Y"
+        },
+        {
+          "name": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202611060293.aspx"
+        }
+      ],
+      "detail": "符合公告所列的特定造市或避險需求可豁免借券賣出限制。投資人經證券商或證券金融事業同意，可用符合條件的其他擔保品補繳差額。金管會也鼓勵公司評估庫藏股及主動說明營運。",
+      "relatedCategories": [
+        "exchanges",
+        "futures"
+      ],
+      "knowledgeIds": [
+        "securities-lending"
+      ]
+    },
+    {
+      "id": "sinopac-transfer-findings",
+      "eventId": "sinopac-transfer-202611",
+      "stage": "bank-findings",
+      "publishedAt": "2026-11-04",
+      "title": "永豐銀公布異常轉帳初步調查，款項已返還",
+      "summary": "永豐銀行表示，外部攻擊者利用新網銀交易系統的供應商安全設定，造成客戶款項異常轉出。銀行已返還款項、阻斷相關手法並加強驗證，後續仍將調查及改善。",
+      "category": "domestic-bank",
+      "importance": "important",
+      "sources": [
+        {
+          "name": "永豐銀行",
+          "url": "https://bank.sinopac.com/sinopacBT/about/news-center/news/content/20261104.html"
+        }
+      ],
+      "previousIds": [
+        "sinopac-transfer-incident"
+      ],
+      "detail": "銀行表示，依當時掌握的事證，尚未發現個資外洩跡象，並已啟動資安與個資盤點。"
+    },
+    {
+      "id": "sinopac-transfer-incident",
+      "eventId": "sinopac-transfer-202611",
+      "stage": "incident-reported",
+      "publishedAt": "2026-11-03T17:34:00+08:00",
+      "title": "金管會說明永豐銀異常轉帳，初查影響 419 人",
+      "summary": "金管會說明，永豐銀行初步比對發現 427 筆異常轉帳，影響 419 名客戶，轉出合計超過新臺幣 4,000 萬元。銀行以代墊方式返還款項，須在 11 月 12 日前提交重大偶發事件報告。",
+      "category": "domestic-bank",
+      "importance": "important",
+      "sources": [
+        {
+          "name": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202611030259.aspx"
+        },
+        {
+          "name": "永豐銀行｜11 月 4 日後續說明",
+          "url": "https://bank.sinopac.com/sinopacBT/about/news-center/news/content/20261104.html"
+        }
+      ]
+    },
+    {
+      "id": "vasp-rules-draft",
+      "eventId": "vasp-rules-draft",
+      "stage": "consultation",
+      "publishedAt": "2026-11-03",
+      "title": "金管會提出八項虛擬資產服務商管理草案",
+      "summary": "金管會公布八項虛擬資產服務商子法草案，涵蓋業者設置、人員管理、內控稽核、委外、異常交易管理及財務申報等。正式預告的意見徵詢期間為 11 月 7 日至 12 月 16 日。",
+      "category": "virtual-assets",
+      "importance": "important",
+      "sources": [
+        {
+          "name": "金管會",
+          "url": "https://www.fsc.gov.tw/ch/home.jsp?dataserno=202611030001&dtable=News&id=96&mcustomize=news_view.jsp&parentpath=0%2C2&toolsflag=Y"
+        },
+        {
+          "name": "行政院公報",
+          "url": "https://gazette.nat.gov.tw/egFront/eguploadpubWrapper?file=%2FEG_FileManager%2Feguploadpub%2Feg032205%2Fch04%2Ftype3%2Fgov36%2Fnum9%2FEg.htm&metaid=169306"
+        }
+      ]
+    },
+    {
+      "id": "taifex-reporting",
+      "eventId": "taifex-reporting",
+      "stage": "announced",
+      "publishedAt": "2026-11-03",
+      "title": "期交所推動期貨商財報申報與月計表審核電子化",
+      "summary": "期交所推動期貨商財務報告申報與月計表審核電子化，將相關資料提交與審核作業移至線上，以減少紙本作業並提高處理效率。",
+      "category": "futures-broker",
+      "importance": "general",
+      "sources": [
+        {
+          "name": "臺灣期貨交易所",
+          "url": "https://www.taifex.com.tw/file/taifex/CHINESE/11/attach/%E8%B2%A1%E5%8B%99%E7%94%B3%E5%A0%B1%E5%8F%8A%E5%AF%A9%E6%A0%B8%E4%BD%9C%E6%A5%AD%E9%9B%BB%E5%AD%90%E5%8C%96%E6%96%B0%E8%81%9E%E7%A8%BF.pdf"
+        }
+      ]
+    },
+    {
+      "id": "stablecoin-rule-draft",
+      "eventId": "stablecoin-rule-draft",
+      "stage": "consultation",
+      "publishedAt": "2026-11-03",
+      "title": "金管會提出穩定幣發行許可及準備資產規範草案",
+      "summary": "金管會提出穩定幣發行許可及洗錢防制草案，擬規範發行人資格、準備資產與身分確認。草案擬允許與新臺幣或單一外幣一比一連結的穩定幣，11 月 7 日至 12 月 16 日徵詢意見。",
+      "category": "virtual-assets",
+      "importance": "important",
+      "sources": [
+        {
+          "name": "金管會",
+          "url": "https://www.fsc.gov.tw/ch/home.jsp?dataserno=202611030002&dtable=News&id=96&mcustomize=news_view.jsp&parentpath=0%2C2&toolsflag=Y"
+        },
+        {
+          "name": "金管會主管法規查詢系統｜預告日期",
+          "url": "https://law.fsc.gov.tw/index.aspx?size=20"
+        }
+      ],
+      "detail": "草案擬要求非銀行發行人最低實收資本額為新臺幣 3 億元，且須公開發行並專營穩定幣發行與贖回。準備資產公允價值不得低於流通在外餘額。",
+      "relatedCategories": [
+        "bank",
+        "holdings"
+      ]
+    },
+    {
+      "id": "taifex-otc-risk",
+      "eventId": "taifex-otc-risk",
+      "stage": "announced",
+      "publishedAt": "2026-11-02",
+      "title": "期交所擴充店頭集中結算風險預警",
+      "summary": "期交所擴充店頭集中結算會員的風險預警功能，協助會員掌握帳戶風險變動及進行監控。這次更新著重結算會員的風險管理作業。",
+      "category": "settlement",
+      "importance": "general",
+      "sources": [
+        {
+          "name": "臺灣期貨交易所",
+          "url": "https://www.taifex.com.tw/file/taifex/CHINESE/11/attach/%E5%BA%97%E9%A0%AD%E9%9B%86%E4%B8%AD%E7%B5%90%E7%AE%97%E6%9C%83%E5%93%A1%E9%A2%A8%E9%9A%AA%E9%A0%90%E8%AD%A6%E7%9B%A3%E6%8E%A7%E5%8A%9F%E8%83%BD%E6%96%B0%E8%81%9E%E7%A8%BF.pdf"
+        }
+      ],
+      "relatedCategories": [
+        "futures"
+      ]
+    },
+    {
+      "id": "crop-insurance-typhoon",
+      "eventId": "crop-insurance-typhoon",
+      "stage": "estimated",
+      "publishedAt": "2026-10-29T14:22:00+08:00",
+      "title": "薔琵颱風後，氣象參數型農業保險估理賠約 8,100 萬元",
+      "summary": "行政院聽取薔琵颱風農損報告，五項氣象參數型農業保險保單達到理賠門檻，估算理賠約新臺幣 8,100 萬元。這是當時估算的保險給付，實際給付依契約及理賠作業確認。",
+      "category": "property",
+      "importance": "general",
+      "sources": [
+        {
+          "name": "中央社",
+          "url": "https://www.cna.com.tw/news/aipl/202610290161.aspx"
+        }
+      ],
+      "knowledgeIds": [
+        "parametric-crop-insurance"
+      ]
+    },
+    {
+      "id": "typhoon-policyholders",
+      "eventId": "typhoon-policyholders",
+      "stage": "announced",
+      "publishedAt": "2026-10-22T21:46:00+08:00",
+      "title": "金管會要求壽產險業協助薔琵颱風受災保戶",
+      "summary": "金管會請壽險及產險公會轉知業者，主動了解受災保戶情況並依契約加速理賠。部分保險公司另外提供快速理賠、續期保費緩繳等措施，適用條件依各公司公告。",
+      "category": "insurance",
+      "importance": "general",
+      "sources": [
+        {
+          "name": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202610220420.aspx"
+        }
+      ],
+      "relatedCategories": [
+        "life",
+        "property"
+      ]
+    },
+    {
+      "id": "audit-reporting",
+      "eventId": "audit-reporting",
+      "stage": "published",
+      "publishedAt": "2026-10-20",
+      "title": "金管會調整金控、銀行、保險及專營電支業的內稽申報",
+      "summary": "金管會分別函示金控與銀行、保險及專營電子支付機構，依新版格式透過檢查局單一申報窗口提交內部稽核資料。申報內容包括年度稽核計畫、執行情形及缺失改善資料。",
+      "category": "cross",
+      "importance": "general",
+      "sources": [
+        {
+          "name": "金管會主管法規查詢系統",
+          "url": "https://law.fsc.gov.tw/NewsContent.aspx?id=10774"
+        },
+        {
+          "name": "金管會主管法規查詢系統",
+          "url": "https://law.fsc.gov.tw/NewsContent.aspx?id=10778"
+        },
+        {
+          "name": "金管會主管法規查詢系統",
+          "url": "https://law.fsc.gov.tw/NewsContent.aspx?id=10777"
+        }
+      ],
+      "relatedCategories": [
+        "holdings",
+        "bank",
+        "insurance",
+        "e-payment"
+      ]
+    },
+    {
+      "id": "digital-insurer-applications",
+      "eventId": "digital-insurer-applications",
+      "stage": "reported",
+      "publishedAt": "2026-10-19T12:59:00+08:00",
+      "title": "金管會說明已收到三家數位保險公司申設案",
+      "summary": "金管會主委在立法院說明，有三家業者遞件申設數位保險公司，涵蓋兩家產險與一家壽險。當時確認的是申請件數與類型，核准結果仍待審查。",
+      "category": "insurance",
+      "importance": "general",
+      "sources": [
+        {
+          "name": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202610190093.aspx"
+        }
+      ],
+      "relatedCategories": [
+        "life",
+        "property"
+      ]
+    },
+    {
+      "id": "foreign-securities-advice",
+      "eventId": "foreign-securities-advice",
+      "stage": "published",
+      "publishedAt": "2026-10-16",
+      "title": "金管會公告外國有價證券投顧業務的顧問標的範圍",
+      "summary": "金管會公告，經營外國有價證券投資顧問業務者，提供顧問服務時應遵循公告所列的外國有價證券種類及範圍。公告自 10 月 16 日生效。",
+      "category": "investment-consulting",
+      "importance": "general",
+      "sources": [
+        {
+          "name": "金管會主管法規查詢系統",
+          "url": "https://law.fsc.gov.tw/NewsContent.aspx?id=10772"
+        }
+      ]
+    },
+    {
+      "id": "taifex-49-margin",
+      "eventId": "taifex-49-margin",
+      "stage": "announced",
+      "publishedAt": "2026-10-15",
+      "title": "期交所調整大同期貨等 49 檔股票類契約保證金",
+      "summary": "期交所公告調整大同期貨等 49 檔股票類契約的保證金適用比例，自 10 月 16 日一般交易時段結束後實施。各契約適用的保證金比例列在公告附件。",
+      "category": "futures",
+      "importance": "general",
+      "sources": [
+        {
+          "name": "臺灣期貨交易所",
+          "url": "https://www.taifex.com.tw/file/taifex/CHINESE/11/attach/%E6%96%B0%E8%81%9E%E7%A8%BF%2866%29.pdf"
+        }
+      ]
+    }
+  ],
   "knowledge": [
     {
       "id": "deposit-insurance",
@@ -186,6 +537,52 @@
         {
           "name": "臺灣證券交易所｜ETF 總覽",
           "url": "https://www.twse.com.tw/zh/products/securities/etf/overview/introduction.html"
+        }
+      ]
+    },
+    {
+      "id": "securities-lending",
+      "category": "securities",
+      "depth": "quick",
+      "title": "借券與借券賣出有什麼差別？",
+      "body": "借券是向他人借入有價證券。借到的證券可以用於交割、還券、履約或避險，也可能在市場上賣出。只有將借到的證券實際賣出，才計入借券賣出。看市場統計時，借券成交量反映借入多少，借券賣出量則反映借入後賣出多少。主管機關調整盤中借券賣出額度時，應區分這兩種交易行為。",
+      "revisedOn": "2026-11-09",
+      "sources": [
+        {
+          "name": "臺灣證券交易所｜借券資訊",
+          "url": "https://www.twse.com.tw/zh/products/sbl/disclosures/info.html"
+        }
+      ]
+    },
+    {
+      "id": "stabilization-fund",
+      "category": "securities",
+      "depth": "quick",
+      "title": "國安基金是什麼？",
+      "body": "國家金融安定基金是依專法設立、用於維護金融市場穩定的基金。遇到重大事件或國際資金大幅移動，若市場有失序或損及國家安定之虞，管理委員會可決議授權執行市場安定任務。閱讀相關新聞時，可分開看委員會的授權決議、實際執行與事後公布的運用情形，三者是不同階段。",
+      "revisedOn": "2026-11-09",
+      "sources": [
+        {
+          "name": "財政部｜國家金融安定基金設置及管理條例",
+          "url": "https://www.mof.gov.tw/multiplehtml/398"
+        }
+      ]
+    },
+    {
+      "id": "parametric-crop-insurance",
+      "category": "property",
+      "depth": "quick",
+      "title": "氣象參數型農業保險是什麼？",
+      "body": "氣象參數型農業保險把風速、雨量或溫度等可量測指標寫入契約。指定地點、期間的觀測值達到約定門檻時，依契約計算給付。例如風速型保單可用指定測站的觀測值判斷是否起賠。實際受損與氣象指標可能有落差，閱讀新聞中的預估理賠時，要留意所涉保單、承保事故和起賠標準。",
+      "revisedOn": "2026-11-09",
+      "sources": [
+        {
+          "name": "農業部｜農業政策型保險試算",
+          "url": "https://m.moa.gov.tw/FarmerInsureanceInfo/Index"
+        },
+        {
+          "name": "中央社｜行政院聽取農損與理賠報告",
+          "url": "https://www.cna.com.tw/news/aipl/202610290161.aspx"
         }
       ]
     }
