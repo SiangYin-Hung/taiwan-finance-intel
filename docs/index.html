@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="用時間軸掌握臺灣金融產業動態，從產業入口探索金融知識。">
+<title>臺灣金融產業情報平台</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">跳至主要內容</a>
+<header class="mast"><div class="wrap bar"><a class="brand" href="./">臺灣金融情報</a><nav aria-label="主選單"><a href="#news">新聞情報</a><a href="#knowledge">知識庫</a></nav></div></header>
+<main id="main">
+<section class="hero"><div class="wrap"><p class="eyebrow">臺灣金融產業</p><h1>金融產業情報平台</h1><p>循時間軸掌握產業動態，從金融知識理解事件背景。</p><p id="edition" class="edition">依指令查證與更新 · 臺灣時間</p></div></section>
+<div class="wrap layout" id="news">
+<aside class="filter"><h2>篩選新聞</h2><button id="toggle" type="button" aria-expanded="false" aria-controls="filters">篩選新聞</button>
+<form id="filters">
+<label for="query">關鍵字</label><input id="query" type="search" placeholder="機構、事件或金融名詞">
+<label for="industry">產業大類</label><select id="industry"><option value="">全部產業</option></select>
+<div id="subgroup" hidden><label for="subindustry">細分類</label><select id="subindustry"></select></div>
+<label for="from">起始日期</label><input id="from" type="date">
+<label for="to">結束日期</label><input id="to" type="date">
+<button type="reset">清除篩選</button>
+</form></aside>
+<section aria-labelledby="timeline-title"><p class="eyebrow">新聞情報</p><h2 id="timeline-title">新聞時間軸</h2><p id="news-status" role="status">載入新聞資料中…</p><div id="timeline"></div><button id="more" type="button" hidden>顯示更多新聞</button></section>
+</div>
+<section class="library" id="knowledge"><div class="wrap"><p class="eyebrow">金融知識庫</p><h2>從產業開始探索</h2><label for="library-industry">選擇產業</label><select id="library-industry"><option value="">選擇產業</option></select><p id="library-status" role="status">載入知識文章中…</p><div id="articles"></div></div></section>
+</main>
+<footer class="wrap">臺灣金融產業情報平台 · 新聞附原始來源與發布日期</footer>
+<noscript><p>請開啟 JavaScript 以瀏覽新聞及知識庫。</p></noscript>
+</body>
+</html>
